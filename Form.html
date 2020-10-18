@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="Form.css">
+    <div class="header">
+        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/f061d615713275.56295fece3fe5.gif" alt="logo" />
+        <h1 id="head"> Photo- Gallery</h1>
+      </div>
+      
+</head>
+<body> 
+
+<nav> 
+<div class="container">
+
+<form>
+<input type="text" id="name" placeholder="Name of the photo" >
+<input type= "text" id="artistName" placeholder="Name of the artist">
+<input type="file" id="Photo" accept="image/png, image/jpeg">
+<Button type="button" onclick="handleSubmit()">Submit</Button>
+<Button type="button" onclick="retriveData()">Retrive Data</Button>
+</form>
+
+</div>
+
+</nav>
+<script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-storage.js"></script> 
+<script src="./Form.js"></script>
+<script>
+
+</script>
+</body>
